@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4274B0224FF3F9C009FB3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4274B0124FF3F9C009FB3E4 /* AppDelegate.swift */; };
+		A4274B0424FF3F9C009FB3E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4274B0324FF3F9C009FB3E4 /* SceneDelegate.swift */; };
+		A4274B0624FF3F9C009FB3E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4274B0524FF3F9C009FB3E4 /* ContentView.swift */; };
+		A4274B0824FF3F9D009FB3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4274B0724FF3F9D009FB3E4 /* Assets.xcassets */; };
+		A4274B0B24FF3F9D009FB3E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4274B0A24FF3F9D009FB3E4 /* Preview Assets.xcassets */; };
+		A4274B0E24FF3F9D009FB3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4274B0C24FF3F9D009FB3E4 /* LaunchScreen.storyboard */; };
+		A4274B1924FF3F9D009FB3E4 /* SrikantCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4274B1824FF3F9D009FB3E4 /* SrikantCardTests.swift */; };
+		A4274B2424FF3F9D009FB3E4 /* SrikantCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4274B2324FF3F9D009FB3E4 /* SrikantCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4274B1524FF3F9D009FB3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4274AF624FF3F9C009FB3E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4274AFD24FF3F9C009FB3E4;
+			remoteInfo = SrikantCard;
+		};
+		A4274B2024FF3F9D009FB3E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4274AF624FF3F9C009FB3E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4274AFD24FF3F9C009FB3E4;
+			remoteInfo = SrikantCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4274AFE24FF3F9C009FB3E4 /* SrikantCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SrikantCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4274B0124FF3F9C009FB3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4274B0324FF3F9C009FB3E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4274B0524FF3F9C009FB3E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4274B0724FF3F9D009FB3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4274B0A24FF3F9D009FB3E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4274B0D24FF3F9D009FB3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4274B0F24FF3F9D009FB3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4274B1424FF3F9D009FB3E4 /* SrikantCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SrikantCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4274B1824FF3F9D009FB3E4 /* SrikantCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrikantCardTests.swift; sourceTree = "<group>"; };
+		A4274B1A24FF3F9D009FB3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4274B1F24FF3F9D009FB3E4 /* SrikantCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SrikantCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4274B2324FF3F9D009FB3E4 /* SrikantCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SrikantCardUITests.swift; sourceTree = "<group>"; };
+		A4274B2524FF3F9D009FB3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4274AFB24FF3F9C009FB3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4274B1124FF3F9D009FB3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4274B1C24FF3F9D009FB3E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4274AF524FF3F9C009FB3E4 = {
+			isa = PBXGroup;
+			children = (
+				A4274B0024FF3F9C009FB3E4 /* SrikantCard */,
+				A4274B1724FF3F9D009FB3E4 /* SrikantCardTests */,
+				A4274B2224FF3F9D009FB3E4 /* SrikantCardUITests */,
+				A4274AFF24FF3F9C009FB3E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4274AFF24FF3F9C009FB3E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4274AFE24FF3F9C009FB3E4 /* SrikantCard.app */,
+				A4274B1424FF3F9D009FB3E4 /* SrikantCardTests.xctest */,
+				A4274B1F24FF3F9D009FB3E4 /* SrikantCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4274B0024FF3F9C009FB3E4 /* SrikantCard */ = {
+			isa = PBXGroup;
+			children = (
+				A4274B0124FF3F9C009FB3E4 /* AppDelegate.swift */,
+				A4274B0324FF3F9C009FB3E4 /* SceneDelegate.swift */,
+				A4274B0524FF3F9C009FB3E4 /* ContentView.swift */,
+				A4274B0724FF3F9D009FB3E4 /* Assets.xcassets */,
+				A4274B0C24FF3F9D009FB3E4 /* LaunchScreen.storyboard */,
+				A4274B0F24FF3F9D009FB3E4 /* Info.plist */,
+				A4274B0924FF3F9D009FB3E4 /* Preview Content */,
+			);
+			path = SrikantCard;
+			sourceTree = "<group>";
+		};
+		A4274B0924FF3F9D009FB3E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4274B0A24FF3F9D009FB3E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4274B1724FF3F9D009FB3E4 /* SrikantCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4274B1824FF3F9D009FB3E4 /* SrikantCardTests.swift */,
+				A4274B1A24FF3F9D009FB3E4 /* Info.plist */,
+			);
+			path = SrikantCardTests;
+			sourceTree = "<group>";
+		};
+		A4274B2224FF3F9D009FB3E4 /* SrikantCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4274B2324FF3F9D009FB3E4 /* SrikantCardUITests.swift */,
+				A4274B2524FF3F9D009FB3E4 /* Info.plist */,
+			);
+			path = SrikantCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4274AFD24FF3F9C009FB3E4 /* SrikantCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4274B2824FF3F9D009FB3E4 /* Build configuration list for PBXNativeTarget "SrikantCard" */;
+			buildPhases = (
+				A4274AFA24FF3F9C009FB3E4 /* Sources */,
+				A4274AFB24FF3F9C009FB3E4 /* Frameworks */,
+				A4274AFC24FF3F9C009FB3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SrikantCard;
+			productName = SrikantCard;
+			productReference = A4274AFE24FF3F9C009FB3E4 /* SrikantCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4274B1324FF3F9D009FB3E4 /* SrikantCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4274B2B24FF3F9D009FB3E4 /* Build configuration list for PBXNativeTarget "SrikantCardTests" */;
+			buildPhases = (
+				A4274B1024FF3F9D009FB3E4 /* Sources */,
+				A4274B1124FF3F9D009FB3E4 /* Frameworks */,
+				A4274B1224FF3F9D009FB3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4274B1624FF3F9D009FB3E4 /* PBXTargetDependency */,
+			);
+			name = SrikantCardTests;
+			productName = SrikantCardTests;
+			productReference = A4274B1424FF3F9D009FB3E4 /* SrikantCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4274B1E24FF3F9D009FB3E4 /* SrikantCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4274B2E24FF3F9D009FB3E4 /* Build configuration list for PBXNativeTarget "SrikantCardUITests" */;
+			buildPhases = (
+				A4274B1B24FF3F9D009FB3E4 /* Sources */,
+				A4274B1C24FF3F9D009FB3E4 /* Frameworks */,
+				A4274B1D24FF3F9D009FB3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4274B2124FF3F9D009FB3E4 /* PBXTargetDependency */,
+			);
+			name = SrikantCardUITests;
+			productName = SrikantCardUITests;
+			productReference = A4274B1F24FF3F9D009FB3E4 /* SrikantCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4274AF624FF3F9C009FB3E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Sumi;
+				TargetAttributes = {
+					A4274AFD24FF3F9C009FB3E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A4274B1324FF3F9D009FB3E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A4274AFD24FF3F9C009FB3E4;
+					};
+					A4274B1E24FF3F9D009FB3E4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A4274AFD24FF3F9C009FB3E4;
+					};
+				};
+			};
+			buildConfigurationList = A4274AF924FF3F9C009FB3E4 /* Build configuration list for PBXProject "SrikantCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4274AF524FF3F9C009FB3E4;
+			productRefGroup = A4274AFF24FF3F9C009FB3E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4274AFD24FF3F9C009FB3E4 /* SrikantCard */,
+				A4274B1324FF3F9D009FB3E4 /* SrikantCardTests */,
+				A4274B1E24FF3F9D009FB3E4 /* SrikantCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4274AFC24FF3F9C009FB3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4274B0E24FF3F9D009FB3E4 /* LaunchScreen.storyboard in Resources */,
+				A4274B0B24FF3F9D009FB3E4 /* Preview Assets.xcassets in Resources */,
+				A4274B0824FF3F9D009FB3E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4274B1224FF3F9D009FB3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4274B1D24FF3F9D009FB3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4274AFA24FF3F9C009FB3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4274B0224FF3F9C009FB3E4 /* AppDelegate.swift in Sources */,
+				A4274B0424FF3F9C009FB3E4 /* SceneDelegate.swift in Sources */,
+				A4274B0624FF3F9C009FB3E4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4274B1024FF3F9D009FB3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4274B1924FF3F9D009FB3E4 /* SrikantCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4274B1B24FF3F9D009FB3E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4274B2424FF3F9D009FB3E4 /* SrikantCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4274B1624FF3F9D009FB3E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4274AFD24FF3F9C009FB3E4 /* SrikantCard */;
+			targetProxy = A4274B1524FF3F9D009FB3E4 /* PBXContainerItemProxy */;
+		};
+		A4274B2124FF3F9D009FB3E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4274AFD24FF3F9C009FB3E4 /* SrikantCard */;
+			targetProxy = A4274B2024FF3F9D009FB3E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4274B0C24FF3F9D009FB3E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4274B0D24FF3F9D009FB3E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4274B2624FF3F9D009FB3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4274B2724FF3F9D009FB3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4274B2924FF3F9D009FB3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SrikantCard/Preview Content\"";
+				DEVELOPMENT_TEAM = MMBS57UFS9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SrikantCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroElectrOne.SrikantCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4274B2A24FF3F9D009FB3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SrikantCard/Preview Content\"";
+				DEVELOPMENT_TEAM = MMBS57UFS9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SrikantCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroElectrOne.SrikantCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4274B2C24FF3F9D009FB3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMBS57UFS9;
+				INFOPLIST_FILE = SrikantCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroElectrOne.SrikantCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SrikantCard.app/SrikantCard";
+			};
+			name = Debug;
+		};
+		A4274B2D24FF3F9D009FB3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMBS57UFS9;
+				INFOPLIST_FILE = SrikantCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroElectrOne.SrikantCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SrikantCard.app/SrikantCard";
+			};
+			name = Release;
+		};
+		A4274B2F24FF3F9D009FB3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMBS57UFS9;
+				INFOPLIST_FILE = SrikantCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroElectrOne.SrikantCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SrikantCard;
+			};
+			name = Debug;
+		};
+		A4274B3024FF3F9D009FB3E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MMBS57UFS9;
+				INFOPLIST_FILE = SrikantCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zeroElectrOne.SrikantCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SrikantCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4274AF924FF3F9C009FB3E4 /* Build configuration list for PBXProject "SrikantCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4274B2624FF3F9D009FB3E4 /* Debug */,
+				A4274B2724FF3F9D009FB3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4274B2824FF3F9D009FB3E4 /* Build configuration list for PBXNativeTarget "SrikantCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4274B2924FF3F9D009FB3E4 /* Debug */,
+				A4274B2A24FF3F9D009FB3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4274B2B24FF3F9D009FB3E4 /* Build configuration list for PBXNativeTarget "SrikantCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4274B2C24FF3F9D009FB3E4 /* Debug */,
+				A4274B2D24FF3F9D009FB3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4274B2E24FF3F9D009FB3E4 /* Build configuration list for PBXNativeTarget "SrikantCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4274B2F24FF3F9D009FB3E4 /* Debug */,
+				A4274B3024FF3F9D009FB3E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4274AF624FF3F9C009FB3E4 /* Project object */;
+}
